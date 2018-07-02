@@ -17,7 +17,7 @@ function getTime() {
     var seconds = addZero(date.getSeconds());
     var minutes = addZero(date.getMinutes());
     var hour = addZero(date.getHours());
-    var color = '\#'+hour+minutes+seconds;
+    var color = '#'+hour+minutes+seconds;
     document.body.style.background = color;
     document.getElementById('time').innerHTML=color;
 }
